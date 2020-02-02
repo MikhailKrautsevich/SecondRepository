@@ -3,7 +3,7 @@ package _to_see;
     class NewThread implements Runnable
     {
         Thread th ;
-        public NewThread()
+        NewThread()
         {th = new Thread(this) ;
         }
         public void run() {
