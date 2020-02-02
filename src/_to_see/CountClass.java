@@ -3,7 +3,7 @@ package _to_see;
 public class CountClass extends Thread {
     private StringBuffer text ;
     private int countTo ;
-    public CountClass (StringBuffer s , int c) {
+    CountClass (StringBuffer s , int c) {
         text = s ;
         countTo = c ;
     }

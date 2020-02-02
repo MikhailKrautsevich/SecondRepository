@@ -3,8 +3,8 @@ package _to_see;
 public class ToSeeFloatDouble {
 
     public static void main(String[] args) {
-        Double maxDouble= Double.MAX_VALUE ;
-        Double minDouble= Double.MIN_VALUE ;
+        double maxDouble= Double.MAX_VALUE ;
+        double minDouble= Double.MIN_VALUE ;
 
         System.out.println("maxDouble = " + maxDouble);
         System.out.println("minDouble =" + minDouble);

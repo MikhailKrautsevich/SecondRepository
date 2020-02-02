@@ -2,7 +2,7 @@ package _to_see;
 
     class NewThread implements Runnable
     {
-        Thread th ;
+        private Thread th ;
         NewThread()
         {th = new Thread(this) ;
         }
