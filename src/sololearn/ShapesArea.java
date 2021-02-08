@@ -35,6 +35,9 @@ public class ShapesArea {
         int y = 2;
 
         Square a = new Square(x) ;
+//        @SuppressWarnings("all")
+//       //noinspection SuspiciousNameCombination
+        //noinspection SuspiciousNameCombination
         Circle b = new Circle(y) ;
 
         a.area();
