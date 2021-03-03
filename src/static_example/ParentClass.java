@@ -1,5 +1,5 @@
 package static_example;
 
-public class ParentClass {
+class ParentClass {
     static int PARAM = 7 ;
 }
