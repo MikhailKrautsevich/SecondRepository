@@ -4,7 +4,9 @@ public class StaticExample {
 
     public static void main(String[] args) {
 
+        @SuppressWarnings("unused")
         ParentClass parent = new ParentClass() ;
+        @SuppressWarnings("unused")
         ChildClass child = new ChildClass() ;
 
         System.out.println(ParentClass.PARAM);
