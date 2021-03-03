@@ -13,7 +13,8 @@ public class ToSeeManySynchThreads {
         c1.join();
         c2.join();
 
-        System.out.println("Result: " + text);
+        System.out.println("Result: ");
+        System.out.println(text);
     }
 
 }

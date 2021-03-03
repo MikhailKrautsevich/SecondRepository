@@ -18,7 +18,7 @@ public class VampireSeeker_Ver_02 {
 
     }
 
-    private static boolean  van_helsing (int mul_1, int mul_2, int m_vampire) {
+    private static boolean van_helsing (int mul_1, int mul_2, int m_vampire) {
         boolean proved = false ;
         int [] multis = makeArray((makeString(mul_1 , mul_2))) ;
         int [] vampArray = makeArray(makeString(m_vampire)) ;

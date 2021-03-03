@@ -1,7 +1,7 @@
 package _to_see;
 
 public class CountClass extends Thread {
-    private StringBuffer text ;
+    private final StringBuffer text ;
     private int countTo ;
     CountClass (StringBuffer s , int c) {
         text = s ;
@@ -9,13 +9,12 @@ public class CountClass extends Thread {
     }
     @Override
     public void run() {
-
         synchronized (text) {
-            text.append(this.getName()) ;
+            text.append(this.getName() + "\n") ;
             int sum = 0 ;
             for (int i = 1; i <= countTo ; i++) {
                 sum += i ;
-                text.append("Next value = " + i) ;
+                text.append("Next value = " + i + "; ") ;
             }
             text.append("\nsum=" + sum + "\n") ;
         }
