@@ -8,6 +8,7 @@ public class CountClass extends Thread {
         countTo = c ;
     }
     @Override
+    @SuppressWarnings("all")
     public void run() {
         synchronized (text) {
             text.append(this.getName() + "\n") ;
