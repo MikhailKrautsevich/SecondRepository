@@ -10,10 +10,10 @@ public class ToSeeLocale {
         System.out.println(myLocale.getDisplayCountry());
         System.out.println(myLocale.getDisplayName());
 
-        Locale [] locales = Locale.getAvailableLocales() ;
+        final Locale [] locales = Locale.getAvailableLocales() ;
         System.out.println(locales.length);
 
-        for (int i = 0; i < 160 ; i++) {
+        for (int i = 0; i < locales.length ; i++ ) {
             System.out.println(i + " " + locales[i] +  " = " + locales[i].getDisplayName());
         }
     }
