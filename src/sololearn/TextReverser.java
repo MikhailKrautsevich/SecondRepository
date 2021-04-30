@@ -2,7 +2,7 @@ package sololearn;
 
 public class TextReverser {
     public static void main(String[] args) {
-        String example = "Example text" ;
+        String example = "ExampleInterfaceClass text" ;
         char[] array = example.toCharArray() ;
 
         int length = array.length ;
