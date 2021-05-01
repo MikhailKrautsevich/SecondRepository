@@ -30,7 +30,8 @@ public class DeSeriaAndSeriaExample {
             e.printStackTrace();
         }
         for (Person p: readPeople) {
-            System.out.printf("Name: %s \tAge: %d \n", p.getName(), p.getAge());
+            System.out.printf("Name: %s\tAge: %d\t Height: %f\tMarried: %b\n",
+                    p.getName(), p.getAge(), p.getHeight(), p.isMarried());
         }
     }
 }
